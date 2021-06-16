@@ -62,3 +62,417 @@ Started GET "/helloworld.html" for 127.0.0.1 at 2021-06-16 12:34:55 +0000
   
 ActionController::RoutingError (No route matches [GET] "/helloworld.html"):
   
+Started GET "/hello" for 127.0.0.1 at 2021-06-16 12:52:06 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello?lang=en" for 127.0.0.1 at 2021-06-16 12:52:18 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello/?lang=en" for 127.0.0.1 at 2021-06-16 12:52:30 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello/?lang=pl" for 127.0.0.1 at 2021-06-16 12:52:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello" for 127.0.0.1 at 2021-06-16 12:52:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello.html" for 127.0.0.1 at 2021-06-16 12:54:11 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello.html"):
+  
+Started GET "/hello" for 127.0.0.1 at 2021-06-16 12:54:16 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/hello?lang=es" for 127.0.0.1 at 2021-06-16 12:54:28 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 12:55:28 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 12:55:44 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 12:56:37 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 12:57:56 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=%27pl%27" for 127.0.0.1 at 2021-06-16 12:58:05 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 12:58:08 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 12:58:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy"):
+  
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:00:59 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:03:28 +0000
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:04:27 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:05:29 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:08:46 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2897)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:11:20 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 1ms (Allocations: 876)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:11:21 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 1ms (Allocations: 727)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:11:43 +0000
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2898)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 13:11:46 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"es"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1296)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/private_es, application/private_es with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 13:11:50 +0000
+Processing by StaticPagesController#privacy as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1226)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy, application/privacy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 13:12:13 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"es"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 729)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/private_es, application/private_es with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:12:18 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 722)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:14:37 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 2897)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 13:14:41 +0000
+Processing by StaticPagesController#privacy as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1300)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy, application/privacy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:14:47 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 727)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/privacy_pl, application/privacy_pl with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:10:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:16:47 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_pl.html.erb within layouts/application
+  Rendered static_pages/privacy_pl.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+
+  Rendered layout layouts/application.html.erb (Duration: 2451.1ms | Allocations: 13943)
+Completed 500 Internal Server Error in 2454ms (Allocations: 14958)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /home/nobleprog/nobleprog-ror/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+    13:   <body>
+  
+app/views/layouts/application.html.erb:10
+app/controllers/static_pages_controller.rb:12:in `privacy'
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:16:52 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_pl.html.erb within layouts/application
+  Rendered static_pages/privacy_pl.html.erb within layouts/application (Duration: 0.7ms | Allocations: 214)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/nobleprog/nobleprog-ror/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 1669ms
+Built at: 06/16/2021 1:16:56 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 4096.4ms | Allocations: 6357)
+Completed 200 OK in 4107ms (Views: 4100.3ms | ActiveRecord: 0.0ms | Allocations: 8859)
+
+
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 13:17:02 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"es"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1582)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/private_es, application/private_es with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:12:in `privacy'
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 13:17:05 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"es"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 862)
+
+
+  
+ActionView::MissingTemplate (Missing template static_pages/private_es, application/private_es with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/nobleprog/nobleprog-ror/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.3.2/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.3.2/app/views"
+):
+  
+app/controllers/static_pages_controller.rb:12:in `privacy'
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 13:17:30 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"es"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_es.html.erb within layouts/application
+  Rendered static_pages/privacy_es.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3545)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4175)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 13:17:33 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.4ms | Allocations: 103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3447)
+Completed 200 OK in 7ms (Views: 6.8ms | Allocations: 3946)
+
+
