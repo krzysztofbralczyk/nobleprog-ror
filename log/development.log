@@ -1,0 +1,64 @@
+Started GET "/" for 127.0.0.1 at 2021-06-16 10:47:03 +0000
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.3ms | Allocations: 444)
+Completed 200 OK in 20ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3632)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-16 12:29:42 +0000
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.8ms | Allocations: 332)
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 2443)
+
+
+Started GET "/HelloWorld" for 127.0.0.1 at 2021-06-16 12:29:48 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/HelloWorld"):
+  
+Started GET "/HelloWorld.html" for 127.0.0.1 at 2021-06-16 12:30:29 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/HelloWorld.html"):
+  
+Started GET "/HelloWorld.html" for 127.0.0.1 at 2021-06-16 12:31:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/HelloWorld.html"):
+  
+Started GET "/HelloWorld.html" for 127.0.0.1 at 2021-06-16 12:31:16 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/HelloWorld.html"):
+  
+Started GET "/HelloWorld.html" for 127.0.0.1 at 2021-06-16 12:32:13 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/HelloWorld.html"):
+  
+Started GET "/HelloWorld" for 127.0.0.1 at 2021-06-16 12:32:17 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/HelloWorld"):
+  
+Started GET "/helloworld" for 127.0.0.1 at 2021-06-16 12:33:19 +0000
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/helloworld"):
+  
+Started GET "/home/nobleprog/nobleprog-ror/helloworld" for 127.0.0.1 at 2021-06-16 12:33:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/home/nobleprog/nobleprog-ror/helloworld"):
+  
+Started GET "/helloworld" for 127.0.0.1 at 2021-06-16 12:34:13 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/helloworld"):
+  
+Started GET "/" for 127.0.0.1 at 2021-06-16 12:34:21 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 219)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 1712)
+
+
+Started GET "/helloworld.html" for 127.0.0.1 at 2021-06-16 12:34:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/helloworld.html"):
+  
